@@ -10,6 +10,10 @@
         "src": "/lib/data.json",
         "dest": "/public/lib/data.json"
       }
+    ],
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
     ]
+  
 }
   
