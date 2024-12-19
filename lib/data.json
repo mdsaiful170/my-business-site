@@ -1,0 +1,158 @@
+{
+  "resturant": [
+    {
+      "id": 1,
+      "img": "./restu-img-1.png",
+      "title": "Slow Lagos",
+      "des": "2 Musa Yar’Adua, Lagos Nigeria",
+      "coun": "African . italian . Asian . Continental",
+      "delay": 0.1
+    },
+
+    {
+      "id": 2,
+      "img": "./restu-img-2.png",
+      "title": "Nok by Alara",
+      "des": "2 Musa Yar’Adua, Lagos Nigeria",
+      "coun": "African . italian . Asian . Continental",
+      "delay": 0.3
+    },
+    {
+      "id": 2,
+      "img": "./restu-img-3.png",
+      "title": "Soho",
+      "des": "2 Musa Yar’Adua, Lagos Nigeria",
+      "coun": "African . italian . Asian . Continental",
+      "delay": 0.5
+    },
+    {
+      "id": 4,
+      "img": "./restu-img-4.png",
+      "title": "Noir",
+      "des": "2 Musa Yar’Adua, Lagos Nigeria",
+      "coun": "African . italian . Asian . Continental",
+      "delay": 0.7
+    }
+  ],
+
+  "nightClub": [
+    {
+      "img": "club-card-img-1.png",
+      "title": "Quilox ",
+      "subtitle": "2 Musa Yar’Adua, Lagos Nigeria",
+      "delay": 0.1,
+      "datebox": {
+        "date": "Mondays-Friday",
+        "time": "8pm-3am"
+      }
+    },
+    {
+      "img": "club-card-img-2.png",
+      "title": "Silver fox ",
+      "subtitle": "2 Musa Yar’Adua, Lagos Nigeria",
+      "delay": 0.3,
+      "datebox": {
+        "date": "Mondays-Friday",
+        "time": "8pm-3am"
+      }
+    },
+    {
+      "img": "club-card-img-3.png",
+      "title": "Nitro night club",
+      "subtitle": "2 Musa Yar’Adua, Lagos Nigeria",
+      "delay": 0.5,
+      "datebox": {
+        "date": "Mondays-Friday",
+        "time": "8pm-3am"
+      }
+    },
+    {
+      "img": "club-card-img-4.png",
+      "title": "Club vegas ",
+      "subtitle": "2 Musa Yar’Adua, Lagos Nigeria",
+      "delay": 0.7,
+      "datebox": {
+        "date": "Mondays-Friday",
+        "time": "8pm-3am"
+      }
+    }
+  ],
+
+  "clubcarusole": [
+    {
+      "id": 1,
+      "price": 2000,
+      "img": "clubc-img-1.png",
+      "name": "The 90s with Dj Neptune",
+      "location": "sylhet",
+      "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 2,
+      "price": 2500,
+      "img": "clubc-img-2.png",
+      "name": "Upcoming events this weekend",
+      "location": "citagong",
+      "des": "Lorem ipsum dolor Enjoy the freedom of universal payments for a seamless marketplace experience sit amet, consectetur adipiscing elit, sed do"
+    },
+    {
+      "id": 3,
+      "price": 2200,
+      "img": "clubc-img-3.png",
+      "name": "GTCO Food and Drink Festival 2022:",
+      "location": "Cumilla",
+      "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enjoy the freedom of universal payments for a seamless marketplace experience"
+    },
+    {
+      "id": 4,
+      "price": 2500,
+      "img": "drinkc-img-1.png",
+      "name": "GTCO Food and Drink Festival 2022: Africa’s Biggest Food and Drink Festival",
+      "location": "Dhaka",
+      "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id": 5,
+      "price": 3500,
+      "img": "drinkc-img-2.png",
+      "name": "Upcoming events this weekend",
+      "location": "Chotogram",
+      "des": "Lorem ipsum dolor Enjoy the freedom of universal payments for a seamless marketplace experience sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna Enjoy the freedom of universal payments for a seamless marketplace experience "
+    },
+    {
+      "id": 6,
+      "price": 1500,
+      "img": "drinkc-img-3.png",
+      "name": "GTCO Food and Drink Festival 2022:",
+      "location": "Khulna",
+      "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enjoy the freedom of universal payments for a seamless marketplace experience"
+    }
+  ],
+
+  "contactData": [
+    {
+      "id": 1,
+      "img": "contact-img-1.png",
+      "delay": 0.2,
+      "title": "Become an Influencer",
+      "subtext": "Join a company that’s passionate about design and technology",
+      "email": "chills@chillsbay.com"
+    },
+    {
+      "id": 2,
+      "img": "contact-img-2.png",
+      "title": "Refunds & Others",
+      "delay": 0.4,
+      "subtext": "Join a company that’s passionate about design and technology",
+      "email": "chills@chillsbay.com "
+    },
+    {
+      "id": 3,
+      "img": "contact-img-3.png",
+      "title": "Need Help?",
+      "delay": 0.6,
+      "subtext": "Join a company that’s passionate about design and technology",
+      "email": "chills@chillsbay.com"
+    }
+  ]
+}
