@@ -3,7 +3,7 @@ import { ContainerTage } from "../../material/ContainerTage";
 import { ResturantCard } from "../../ui/ResturantCard";
 import { HeadingTag } from "../../material/HeadingTag";
 
-const Drinkresturants = ({ title }) => {
+export const DrinkResturants = ({ title }) => {
   const [resturentdata, setdata] = useState([]);
   const [loading, setloading] = useState(true);
   const [error, seterror] = useState();
@@ -64,4 +64,3 @@ const Drinkresturants = ({ title }) => {
   );
 };
 
-export default Drinkresturants;
