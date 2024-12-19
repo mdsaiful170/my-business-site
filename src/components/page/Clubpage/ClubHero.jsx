@@ -29,7 +29,7 @@ const ClubHero = () => {
           clickable: true,
         }}
       >
-        <SwiperSlide className="bg-[url(/club-mbg.png)] lg:bg-[url(./club-bg.png)] bg-cover min-h-[70vh] bg-no-repeat  bg-top lg:bg-center pt-14 md:pt-20 px-3 ">
+        <SwiperSlide className="bg-[url(/club-mbg.png)] lg:bg-[url(/club-bg.png)] bg-cover min-h-[70vh] bg-no-repeat  bg-top lg:bg-center pt-14 md:pt-20 px-3 ">
           <ContainerTage>
             <motion.div
               initial={{ opacity: 0, y: 80 }}
@@ -51,7 +51,7 @@ const ClubHero = () => {
             </motion.div>
           </ContainerTage>
         </SwiperSlide>
-        <SwiperSlide className="bg-[url(./drink-bg.png)]  min-h-[70vh] bg-no-repeat bg-cover  bg-top lg:bg-center pt-14 md:pt-20 px-3">
+        <SwiperSlide className="bg-[url(/drink-bg.png)]  min-h-[70vh] bg-no-repeat bg-cover  bg-top lg:bg-center pt-14 md:pt-20 px-3">
           <ContainerTage>
             <motion.div
               initial={{ opacity: 0, y: 80 }}
@@ -76,7 +76,7 @@ const ClubHero = () => {
             </motion.div>
           </ContainerTage>
         </SwiperSlide>
-        <SwiperSlide className="bg-[url(./hero.png)]   min-h-[70vh] bg-no-repeat  bg-top lg:bg-top bg-cover pt-16 md:pt-20 px-3">
+        <SwiperSlide className="bg-[url(/hero.png)]   min-h-[70vh] bg-no-repeat  bg-top lg:bg-top bg-cover pt-16 md:pt-20 px-3">
           <ContainerTage>
             <motion.h1
               initial={{ opacity: 0, y: 50 }} // শুরুতে ডানে থাকবে
