@@ -3,7 +3,7 @@
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mdsaiful170/my-business-site.git
+   https://github.com/mdsaiful170/my-business-site.git
 2. install
     ```bash
       bun install
