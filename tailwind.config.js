@@ -28,7 +28,7 @@ export default {
 
       },
       backgroundImage: {
-        gradientwithimg: `linear-gradient(180.12deg, rgba(39, 68, 124, 0.2) 18.55%, rgba(38, 57, 92, 0.156) 38.23%, rgba(38, 57, 92, 0) 107.91%), url('../from-img.png')`,
+        gradientwithimg: `linear-gradient(180.12deg, rgba(39, 68, 124, 0.2) 18.55%, rgba(38, 57, 92, 0.156) 38.23%, rgba(38, 57, 92, 0) 107.91%), url('/from-img.png')`,
       },
     },
   },

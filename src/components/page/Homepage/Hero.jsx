@@ -7,7 +7,7 @@ const active = ["monday", "sunday", "tueday", "thusday", "friday", "donday"];
 const Hero = () => {
   return (
     <>
-      <section className="bg-[url(./hero.png)] bg-no-repeat object-cover bg-top min-h-[82vh] md:pt-16 lg:pt-20 ">
+      <section className="bg-[url(/hero.png)] bg-no-repeat object-cover bg-top min-h-[82vh] md:pt-16 lg:pt-20 ">
         <ContainerTage>
           <motion.h1
             initial={{ opacity: 0, y:60 }} // শুরুতে ডানে থাকবে

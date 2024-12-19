@@ -29,7 +29,7 @@ const ClubHero = () => {
           clickable: true,
         }}
       >
-        <SwiperSlide className="bg-[url(./club-mbg.png)] lg:bg-[url(./club-bg.png)] bg-cover min-h-[70vh] bg-no-repeat  bg-top lg:bg-center pt-14 md:pt-20 px-3 ">
+        <SwiperSlide className="bg-[url(/club-mbg.png)] lg:bg-[url(./club-bg.png)] bg-cover min-h-[70vh] bg-no-repeat  bg-top lg:bg-center pt-14 md:pt-20 px-3 ">
           <ContainerTage>
             <motion.div
               initial={{ opacity: 0, y: 80 }}
