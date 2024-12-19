@@ -1,4 +1,4 @@
-import { cn } from "../../../lib/utilits";
+import { cn } from "../../../public/lib/utilits";
 import { motion } from "framer-motion";
 export const LagosCard = (props) => {
   const { title, img, dely, className } = props || {};

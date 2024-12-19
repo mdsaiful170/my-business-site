@@ -1,5 +1,5 @@
 import { Button } from "@nextui-org/react";
-import { cn } from "../../../lib/utilits";
+import { cn } from "../../../public/lib/utilits";
 export const ButtonTag = ({ className,onclick, startContent, children, varient }) => {
   return (
     <>

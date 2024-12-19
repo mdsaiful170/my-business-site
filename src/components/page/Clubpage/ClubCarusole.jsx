@@ -71,7 +71,7 @@ const ClubCarusole = () => {
   const fetchDatabox = async () => {
     try {
       setloadingData(true);
-      const responseCarusoleData = await fetch("../../../../lib/data.json");
+      const responseCarusoleData = await fetch("/lib/data.json");
       if (!responseCarusoleData.ok) {
         throw new Error("HTTP error: " + responseCarusoleData.status);
       }
@@ -104,7 +104,9 @@ const ClubCarusole = () => {
     <>
       <section className="py-9">
         {message && (
-          <p className="text-center text-xl top-0 fixed left-0 z-10 right-0 bg-black py-4   font-bold  text-emerald-400">{message}</p>
+          <p className="text-center text-xl top-0 fixed left-0 z-10 right-0 bg-black py-4   font-bold  text-emerald-400">
+            {message}
+          </p>
         )}
         <ContainerTage className={"relative px-4 lg:px-10"}>
           <HeadingTag className={"text-3xl font-bold text-white pb-9"}>

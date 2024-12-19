@@ -3,13 +3,13 @@ import { ContainerTage } from "../../material/ContainerTage";
 import { HeadingTag } from "../../material/HeadingTag";
 import { NightCard } from "../../ui/NightCard";
 
-const NightClub = ({ title }) => {
+export const NightClub = ({ title }) => {
   const [nightdata, setdata] = useState([]);
   const [loading, setloading] = useState(true);
   const [error, seterror] = useState(false);
 
   useEffect(() => {
-    fetch("../../../../lib/data.json")
+    fetch("/lib/data.json")
       .then(function (responseData) {
         if (!responseData.ok) {
           throw new Error(`HTTP Error: ${responseData.status}`);
@@ -68,4 +68,3 @@ const NightClub = ({ title }) => {
   );
 };
 
-export default NightClub;

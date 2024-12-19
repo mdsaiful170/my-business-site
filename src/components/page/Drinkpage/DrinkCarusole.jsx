@@ -16,7 +16,6 @@ import {
 import { ButtonTag } from "../../material/ButtonTag";
 import { CartContext } from "../../ui/ContextBox";
 
-
 const dateBox = [
   {
     icon: Wallet,
@@ -57,7 +56,7 @@ const DrinkCarusole = () => {
   const fetchdata = async () => {
     try {
       setloading(true);
-      const response = await fetch("../../../../lib/data.json");
+      const response = await fetch("/lib/data.json");
       if (!response.ok) {
         throw new Error("HTTP error: " + response.status);
       }
@@ -88,6 +87,13 @@ const DrinkCarusole = () => {
       </p>
     );
   }
+
+
+
+
+
+
+  
   const handelPrevious = () => {
     setIndex(function (prevousindex) {
       if (prevousindex === carusoleData.length - 1) {
@@ -115,8 +121,10 @@ const DrinkCarusole = () => {
   return (
     <>
       <section className="py-9">
-      {message && (
-          <p className="text-center text-xl top-0 fixed  left-0 right-0 bg-white py-4 z-10  font-bold  text-red-400">{message}</p>
+        {message && (
+          <p className="text-center text-xl top-0 fixed  left-0 right-0 bg-white py-4 z-10  font-bold  text-red-400">
+            {message}
+          </p>
         )}
         <ContainerTage className={"relative px-4 lg:px-10"}>
           <HeadingTag className={"text-3xl font-bold text-secondary pb-9"}>
@@ -169,9 +177,8 @@ const DrinkCarusole = () => {
               </p>
               <p className="text-secondary  text-lg font-bold">
                 {" "}
-                Our Price:  <span className="text-xl">-/{carusole.price}$</span>
+                Our Price: <span className="text-xl">-/{carusole.price}$</span>
               </p>
-
 
               <div className="grid grid-cols-2 gap-5 pt-4">
                 {dateBox.map((res, i) => (

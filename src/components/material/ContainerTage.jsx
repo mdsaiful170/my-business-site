@@ -1,4 +1,4 @@
-import { cn } from "../../../lib/utilits";
+import { cn } from "../../../public/lib/utilits";
 
 export const ContainerTage = ({ children, className }) => {
   return (

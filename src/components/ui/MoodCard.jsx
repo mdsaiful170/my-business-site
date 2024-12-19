@@ -1,5 +1,6 @@
-import { cn } from "../../../lib/utilits";
+
 import { motion } from "framer-motion";
+import { cn } from "../../../public/lib/utilits";
 export const MoodCard = ({ className, img, title }) => {
   return (
     <>

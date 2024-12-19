@@ -1,5 +1,5 @@
 import { Calendar, Clock } from "lucide-react";
-import { cn } from "../../../lib/utilits";
+import { cn } from "../../../public/lib/utilits";
 import { ButtonTag } from "../material/ButtonTag";
 import { motion } from "framer-motion";
 export const NightCard = ({ Night, className }) => {

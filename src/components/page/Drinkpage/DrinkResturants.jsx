@@ -5,11 +5,10 @@ import { HeadingTag } from "../../material/HeadingTag";
 
 export const DrinkResturants = ({ title }) => {
   const [resturentdata, setdata] = useState([]);
-  const [loading, setloading] = useState(true);
   const [error, seterror] = useState();
 
   useEffect(() => {
-    fetch("../../../../lib/data.json")
+    fetch("/lib/data.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.statusText}`);
@@ -18,15 +17,13 @@ export const DrinkResturants = ({ title }) => {
       })
       .then((result) => {
         setdata(result.resturant);
-        setloading(false);
       })
       .catch((error) => {
         seterror(error);
-        setloading(false);
       });
   }, []);
 
-  if (loading)
+  if (!resturentdata)
     return (
       <p className="text-center text-secondary text-base font-bold ">
         Loding...
@@ -63,4 +60,3 @@ export const DrinkResturants = ({ title }) => {
     </>
   );
 };
-

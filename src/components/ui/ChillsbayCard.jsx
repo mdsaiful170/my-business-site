@@ -1,5 +1,8 @@
-import { cn } from "../../../lib/utilits";
+
 import { motion } from "framer-motion";
+import { cn } from "../../../public/lib/utilits";
+
+
 export const ChillsbayCard = (props) => {
   const { img, title, delay, content, className } = props || {};
   return (

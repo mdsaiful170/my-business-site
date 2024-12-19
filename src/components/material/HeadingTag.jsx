@@ -1,5 +1,5 @@
 
-import { cn } from "../../../lib/utilits";
+import { cn } from "../../../public/lib/utilits";
 
 export const HeadingTag = ({ className, children }) => {
   return (

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import ClubHero from "./ClubHero";
-import NightClub from "./NightClub";
+import {NightClub} from "./NightClub";
 import ClubCarusole from "./ClubCarusole";
 import ClubMap from "./ClubMap";
 

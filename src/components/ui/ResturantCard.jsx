@@ -1,4 +1,4 @@
-import { cn } from "../../../lib/utilits";
+import { cn } from "../../../public/lib/utilits";
 import { ButtonTag } from "../material/ButtonTag";
 import { motion } from "framer-motion";
 export const ResturantCard = ({ resturent, className }) => {
